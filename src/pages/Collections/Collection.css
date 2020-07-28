@@ -1,0 +1,95 @@
+.com-header {
+    height: 1.8rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 100;
+    padding-top: 0.8rem ;
+    background-color: white;
+    box-sizing: border-box;
+    display:flex;
+    border-bottom:1px solid lightgray;
+}
+.com-header span{
+    width: 1rem;
+    float: left;
+    padding-left:.3rem;
+    line-height: 1rem;
+}
+.iconfont{
+   font-size: 35px;
+}
+.com-header .com-title{
+    flex: 1;
+    text-indent: 4.5em;
+    display: inline-block;
+    line-height: 1rem;
+    font-weight: 400;
+    font-size: .35rem;
+    overflow: hidden;
+}
+.card .into{
+    flex: 1;
+    background:white;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.card .into p{
+    font-size: .32rem;
+    line-height: .4rem;
+    padding:0 0.3rem 0 0.1rem;
+    color:black;
+    
+}
+/* .card .into i{
+    flex: 1;
+    font-size: .22rem;
+    font-style: normal;
+    color: #c6c6c6;
+    line-height: .35rem;
+    padding-left: .2rem;
+    
+} */
+.card .cardimg{
+    width:1.5rem;
+    height:1.5rem;
+ 
+}
+.card .cardimg img{
+    display: block;
+    width:1.5rem;
+    height:1.5rem;
+    border-radius: 5px;
+}
+.xixi .title{
+   font-size: .25rem;
+   line-height: .4rem;
+   border-bottom: 1px solid #c6c6c6;
+   margin-bottom: 0.4rem;
+  
+}
+.xixi .title span{
+    position: relative;
+    padding: 0 0.3rem;
+    bottom:-0.2rem;
+    box-sizing: border-box;
+    background: white;
+}
+.xixi{
+    padding-top:1.8rem
+}
+h5{
+    flex: 1;
+    font-size: .3rem;
+    font-weight: normal;
+    color:gray;
+    line-height: 1.5rem;
+    text-align: center;
+    background: #f6f6f6;
+}
+.collbgc{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
